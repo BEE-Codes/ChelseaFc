@@ -1,10 +1,17 @@
 
 #app {
-  margin: 0 auto;
+  margin: 0px;
+  padding: 0px;
   font-weight: normal;
   background-color:#ffffff;
   font-family: Chelsea Basis Regular,sans-serif;;
 }
+li{
+  text-decoration: none;
 
+}
+body{
+  margin: 0px;
+}
 
 

@@ -67,5 +67,6 @@
 
 a{
     text-decoration: none;
+    color: #001489;
 }
 </style>

@@ -18,7 +18,7 @@
 
             <div id="blue">
                 <img src="../assets/images/menu.png" alt="" class="icon">
-                <p>More</p>
+                <p id="more">More</p>
             </div>
 
         
@@ -67,14 +67,15 @@ hr{
     align-items: center;  
 }
 ul {
-  list-style: none;
-  display: flex;
-  gap:52px;
-  font-weight:600;
+    list-style: none;
+    display: flex;
+    gap:52px;
+    font-weight:600;
 }
 
 a{
     text-decoration: none;
+    color: #001489;
 }
 #searchI{
     width:2%;
@@ -85,7 +86,15 @@ a{
 #blue{
     width:10%;
     display:flex;
-    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3px;
+    color: white;
+    background-color: #001489;
+}
+#more{
+    font-size:0.9rem;
 }
 .icon{
     width:25px;
