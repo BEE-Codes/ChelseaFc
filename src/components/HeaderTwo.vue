@@ -21,6 +21,7 @@
                 <img src="../assets/images/menu.png" alt="" class="icon" @click="toggleBlueCover">
             
                 <p id="more">More</p>
+                <div he;o></div>
             </div>
 
         
